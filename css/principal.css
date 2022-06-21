@@ -1,0 +1,140 @@
+html, body, img, figure {
+ padding: 0;
+ margin: 0;
+ font-size: 100%;
+ font-weight: normal;
+}
+
+body{
+    padding-top: 60px;
+    font-family: 'Oswald', sans-serif;
+}
+
+h1,h2{
+    font-family: 'Merriweather', serif;
+    color:#808080;
+    
+
+}
+
+/*----------------------------carrucel-------------*/
+.main-title {
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    bottom: 380px;
+    right: 0;
+    left: 0;
+}
+
+.main-menu{
+    font-family: 'Teko', sans-serif;     
+}
+
+.main-carrucel__img{
+   max-height: 90vh;
+}
+
+
+.main-menu__link{
+    font-size: 20px;    
+}
+/*----------------------------section-------------*/
+
+
+.main-content__title{
+    text-align: center;
+    font-size: 40px;
+    color:#808080;
+
+}
+/*----------------------------galeria-------------*/
+.gallery{
+    margin:auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
+       
+}
+
+
+
+.gallery__items{   
+    background-color: #e8e8e8;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 2em;
+    text-align: center;
+   
+    
+}
+
+.gallery__items--img{
+   max-width: 80%;
+    height: auto;
+    margin: 2em;
+    text-align: center;
+   
+    
+}
+
+.gallery__info{
+    margin:10px;
+    
+}
+
+/* ------------------------mesa de ayuda---------------------- */
+
+.main-subtitle__center{
+    display: block;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.booton{
+    color: white;
+    width: 100%;
+    height: 2em;
+    background-color:#00BFFF ;
+    border: none;
+    border-radius: 5px;   
+}
+
+
+/* ------------------------footer---------------------- */
+footer{   
+    width: 100%;
+    height: 150px;
+    padding: 1rem;
+    margin-top: 5em;
+    background-color: black;
+}
+    small{
+        color: white; 
+        display: block;
+        text-align: center;
+    }
+
+    .social-bar {
+        flex-direction: column;
+        top: 35px;
+        text-align: center;
+
+    }
+
+    .social-bar a{
+        color: lavender;
+        font-size: 3em;
+        text-decoration: none;
+        margin: 5px;
+    }
+   
+    .social-bar__link:link{
+        color: lavender;
+
+    }
+    
+/* ------------------------media-query---------------------- */
+
+
+
